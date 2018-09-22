@@ -1,0 +1,264 @@
+/* -------------------- CSSは一番下から書き始めてください！ -------------------- */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Hiragino Kaku Gothic ProN";
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  max-width: 1170px;
+  width: 100%;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.top-wrapper {
+  padding: 180px 0 100px 0;
+  background-image: url(https://images.unsplash.com/photo-1507679799987-c73779587ccf?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=2f2507356905735cb7d15583034c7faa&auto=format&fit=crop&w=1502&q=80);
+  background-size: cover;
+  color: white;
+  text-align: center;
+}
+
+.top-wrapper h1 {
+  opacity: 0.7;
+  font-size: 50px;
+  letter-spacing: 5px;
+}
+
+.top-wrapper p {
+  opacity: 0.7;
+  font-size:30px;
+}
+
+.btn-wrapper {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.btn-wrapper p {
+  margin: 10px 0;
+}
+
+.signup {
+  background-color: #239b76;
+}
+
+.facebook {
+  background-color: #3b5998;
+  margin-right: 10px;
+}
+
+.twitter {
+  background-color: #55acee;
+}
+
+.btn {
+  padding: 8px 24px;
+  color: white;
+  display: inline-block;
+  opacity: 0.8;
+  border-radius: 4px;
+  text-align: center;
+}
+
+.btn:hover {
+  opacity: 1;
+}
+
+.fa {
+  margin-right: 5px;
+}
+
+header {
+  height: 65px;
+  width: 100%;
+  background-color: rgba(34, 49, 52, 0.9);
+  position :fixed;
+  top: 0;
+  z-index: 10;
+}
+
+.header-logo p{
+  font-size:24px;
+  color:white;
+  opacity:0.8;
+}
+
+
+.header-left {
+  float: left;
+  padding-bottom: 20px;
+}
+.header-left h2{
+  color:white;
+  opacity:0.8;
+}
+
+.header-right {
+  float: right;
+  margin-right:0 25px;
+}
+
+.header-right a {
+  line-height: 65px;
+  padding: 0 25px;
+  color: white;
+  display: block;
+  float: left;
+  transition: all 0.5s;
+}
+
+.header-right a:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+.lesson-wrapper {
+  padding-bottom: 80px;
+  padding-left: 5%;
+  padding-right: 5%;
+  background-color: #f7f7f7;
+  text-align: center;
+}
+
+.abstruct-wrapper{
+  padding-top: 80px;
+  padding-bottom: 30px;
+  text-align: center;
+}
+
+.abstruct-wrapper h2{
+  font-weight: normal;
+  font-size:40px;
+  color: #003366;
+}
+
+.abstruct-wrapper p{
+  font-weight: normal;
+  color: #5f5d60;
+}
+
+.heading {
+  padding:80px 0px;
+}
+
+.heading h2 {
+  font-weight: normal;
+  font-size:40px;
+  color: #003366;
+}
+.heading p{
+  color: #5f5d60;
+  font-weight: normal;
+}
+
+.lesson {
+  float: left;
+  width : calc(100% / 3) ;
+}
+
+.lesson-icon {
+  position: relative;
+}
+
+.lesson-icon img{
+  height:250px;
+}
+.topic-title{
+  line-height:5px;
+  color: #5f5d60;
+  font-size:18px;
+  height: 150px;
+}
+.topic-title h3{
+  font-weight: normal;
+  color: #003366;
+}
+
+.lesson-icon p {
+  position: absolute;
+  top: 44%;
+  width: 100%;
+  color: white;
+}
+
+.lesson p{
+  width: 80%;
+  display: inline-block;
+  margin-top: 15px;
+  font-size: 13px;
+  color: #5f5d60;
+}
+
+.heading h3 {
+  font-size: 18px
+  font-weight: normal;
+  color:#003366;
+}
+.heading p{
+  color: #5f5d60;
+}
+
+.heading-info{
+  border:5px solid #eee;
+  margin-bottom: 80px;
+}
+
+.message-wrapper {
+  border-bottom: 1px solid #eee;
+  padding-bottom: 80px;
+  text-align: center;
+}
+
+.message {
+  padding: 15px 40px;
+  background-color: #003366;
+  cursor: pointer;
+  box-shadow: 0 7px #001A33;
+}
+
+.message:active {
+  position: relative;
+  top: 7px;
+  box-shadow: none;
+}
+
+footer h2 {
+  color: #003366;
+}
+
+footer p {
+  color: #b3aeb5;
+  font-size: 16px;
+}
+
+footer {
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+
+.in-kansai{
+  padding-bottom: 150px;
+}
+/* -------------------- CSSはここから追加していきましょう！ -------------------- */
+.fa-bars{
+  display:none;
+  color:white;
+  padding-top:21px;
+  font-size:25px;
+}
+.clear{
+  clear:left;
+}
+
+.last-message{
+  padding-bottom: 50px;
+}
