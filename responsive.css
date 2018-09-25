@@ -15,8 +15,7 @@
   footer{
     text-align:center;
   }
-}
-.abstruct-wrapper h2{
+  .abstruct-wrapper h2{
   font-size:28px;
 }
 .abstruct-wrapper h3{
@@ -36,6 +35,8 @@
 .heading p{
   font-size: 14px;
 }
+}
+
 
 /* モバイル向けレイアウト */
 @media all and (max-width: 670px) {
@@ -54,8 +55,7 @@
   .btn{
     width:100%;
   }
-}
-.header-left h2{
+  .header-left h2{
   font-size: 18px;
 }
 .heading h2{
@@ -81,3 +81,5 @@
 .heading p{
   font-size: 14px;
 }
+}
+
