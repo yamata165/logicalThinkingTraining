@@ -24,6 +24,8 @@ a {
   padding: 180px 0 100px 0;
   background-image: url(https://images.unsplash.com/photo-1507679799987-c73779587ccf?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=2f2507356905735cb7d15583034c7faa&auto=format&fit=crop&w=1502&q=80);
   background-size: cover;
+  background-repeat:no-repeat;
+  background-position: 50% 50%;
   color: white;
   text-align: center;
 }
@@ -46,19 +48,6 @@ a {
 
 .btn-wrapper p {
   margin: 10px 0;
-}
-
-.signup {
-  background-color: #239b76;
-}
-
-.facebook {
-  background-color: #3b5998;
-  margin-right: 10px;
-}
-
-.twitter {
-  background-color: #55acee;
 }
 
 .btn {
@@ -136,14 +125,19 @@ header {
 }
 
 .abstruct-wrapper h2{
-  font-weight: normal;
   font-size:40px;
+  color: #003366;
+}
+
+.abstruct-wrapper h3{
+  font-size:18px;
   color: #003366;
 }
 
 .abstruct-wrapper p{
   font-weight: normal;
   color: #5f5d60;
+  padding-bottom: 50px;
 }
 
 .heading {
@@ -151,7 +145,6 @@ header {
 }
 
 .heading h2 {
-  font-weight: normal;
   font-size:40px;
   color: #003366;
 }
@@ -257,8 +250,4 @@ footer {
 }
 .clear{
   clear:left;
-}
-
-.last-message{
-  padding-bottom: 50px;
 }
